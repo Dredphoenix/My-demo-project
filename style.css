@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    margin: 50px 50px 50px 50px;
+    min-width: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+header .logo img {
+    width: 400px;
+    height: 300px;
+    opacity: 95%;
+    border: inset transparent;
+    padding: 30px;
+  
+
+
+}
+
+header .logo {
+    display: inline-block;
+    margin-left: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #eb7575;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+nav li {
+    padding-left: 60px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #eb7575;
+    transition: 0.3s color ease;
+}
+
+nav li a:hover {
+    color: #fff;
+}
+
+nav li a:visited {
+    transform: color aqua;
+}
+
+main {
+    margin-top: 30px;
+}
+
+main article {
+    margin: 20px;
+}
+
+main section {
+    padding: 20px;
+}
+
+main .hed2 article {
+    width: 30%;
+     border: inset transparent;
+    box-shadow: 0px 5px 10px #eb7575;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+main .hed2 {
+    display: flex;
+   
+}
+main .hed2 article:hover{
+   box-shadow: 1px 0px 20px #eb7575;
+}
+main .hed1 article{
+    width: 96.5%;
+    border: inset transparent;
+    box-shadow: 1px 0px 10px #eb7575;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center; 
+}
+main .hed1 article:hover{
+    box-shadow: 1px 0px 20px #eb7575;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+    font-family: Arial;
+}
+footer{
+     margin-top: 30px;
+     display: flex;
+}
+footer .artbrd{
+    width: 10%;
+}
+footer .artbrd img{
+    width: 100px;
+    height: 20px;
+}
+footer .end{
+    margin-left: 450px;
+    margin-top: 20px;
+}
